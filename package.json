@@ -1,0 +1,40 @@
+{
+  "name": "prettierrc.json",
+  "version": "0.3.0",
+  "description": "For creating a standard .prettierrc.json file",
+  "bin": "src/index.mjs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "keywords": [
+    "prettier",
+    ".preitterrc.json",
+    "preitterrc.json",
+    "prettierconfig"
+  ],
+  "author": "Bryson Ward",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "main"
+    ]
+  },
+  "homepage": "https://github.com/brysonbw/prettierrc.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brysonbw/prettierrc.json"
+  },
+  "bugs": {
+    "url": "https://github.com/brysonbw/prettierrc.json/issues"
+  }
+}
